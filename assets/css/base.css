@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --mainColor:#545beb;
+    --mainFont: "Roboto", sans-serif;
+    --subFont:"Inter", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: calc(100% - 120px);/*عشان يحسب لحاله ويحذف */
+    margin: auto;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;/*عشان الابناء ما يطلعو من حجم الاب*/
+}
+ 
