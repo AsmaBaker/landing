@@ -25,6 +25,6 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;/*عشان الابناء ما يطلعو من حجم الاب*/
+    flex-wrap: wrap;/*عشان الابناء ما يطلعو من حجم الاب*//*بتساعد كمان في الميديا كويري */
 }
  
