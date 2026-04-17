@@ -1,2 +1,48 @@
 @import 'base.css'; /*بستدع ملف ال css عشان يتنفذ */
 
+body{
+    font-family: var(--mainFont);
+    background-color:#f5f5f5;
+}
+.header{
+    font-size: small;
+    background-color: #ffff;
+    padding: 20px 0;
+}
+.header a{
+    color: black;
+}
+.navbar h2{
+    color: var(--mainColor);
+}
+.header .nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.header .auth {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-align: left;
+}
+
+.header .auth a{
+    width: 70px;
+    height: 20px;
+    padding: 5.3541765213012695px 20.18113136291504px;
+    border-radius: 4.118597984313965px;
+    border: 2px solid var(--mainColor);
+    text-align: center;
+}
+.header .auth .login {
+    background: #ffffff;
+    color: var(--mainColor);
+}
+
+.header .auth .register{
+    background: var(--mainColor);
+    color: #ffffff;
+}
